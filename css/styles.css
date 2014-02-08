@@ -5,17 +5,19 @@ html {
 }
 
 body {
-	font-family: Helvetica;
+	font-family: Helvetica Neue, Helvetica;
 	text-align: center;
 	color: 202020;
 	font-size: 1.4em;
+	font-weight: 200;
+	line-height: 1.2;
 
 }
 
 a {
-	font-size: 0.7em;
 	text-decoration: none;
 	color: #202020;
+	font-weight: 400;
 }
 
 h1 {
@@ -23,16 +25,20 @@ h1 {
 	text-shadow: 1px 1px 2px rgba(255,255,255,.75);
 }
 
+p {
+	margin: 0 0 10px;
+}
+
 #main {
 	text-align: center;
 	background-color: rgba(255,255,255,0.6);
-	box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 	border: 0px solid;
 	border-color: #d0d0d0;
-	border-radius: 10px;
+	border-radius: 50%;
 	padding-top: 15px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
 	padding-bottom: 10px;
 	height: 15%;
 	margin-right: 33%;
@@ -42,6 +48,10 @@ h1 {
 
 #maintext {
 	color: #303030;
+}
+
+#socmedia {
+	font-size: 0.7em;
 }
 
 ul, li {
