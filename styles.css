@@ -1,0 +1,28 @@
+body {
+	font-family: Helvetica;
+	background: url("http://dl.dropboxusercontent.com/u/7251474/IMG_3217.JPG");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-color: black;
+
+}
+
+#main {
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid;
+	border-color: #b0b0b0;
+	border-radius: 10px;
+	padding: 25px 25px 25px 25px;
+	height: 20%;
+	margin-right: 35%;
+	margin-left: 35%;
+	margin-top: 20%;
+
+
+}
+
+#maintext {
+	color: #303030;
+}
