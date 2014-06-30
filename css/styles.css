@@ -1,66 +1,106 @@
-html {
-	background: url('img/bg.JPG') no-repeat center center fixed;
-	background-size: cover;
-	background-position: center;
-}
+/*************
+GENERAL
+*************/
 
 body {
-	font-family: Helvetica Neue, Helvetica;
-	text-align: center;
-	color: 202020;
-	font-size: 1.4em;
-	font-weight: 200;
-	line-height: 1.2;
-
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.25em;
+	line-height:1.5em;
+	color: #2e2e2e; 
 }
 
 a {
 	text-decoration: none;
-	color: #202020;
-	font-weight: 400;
+	color: #80a1a1;
 }
+
+#wrapper {
+	max-width: 680px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: ;
+}
+
+/*************
+HEADING
+*************/
 
 h1 {
-	letter-spacing: .05em;
-	text-shadow: 1px 1px 2px rgba(255,255,255,.75);
+	font-family: 'Lora', sans-serif;
+	font-size: 2.0em;
+	font-weight: 700;
+	line-height: 0.8em;
+	padding: 10px 0 10px 0;
 }
 
-p {
-	margin: 0 0 10px;
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	background-color: #fff;
 }
 
-#main {
+header a {
 	text-align: center;
-	background-color: rgba(255,255,255,0.6);
-	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-	border: 0px solid;
-	border-color: #d0d0d0;
-	border-radius: 5%;
-	padding-top: 15px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 10px;
-	height: 15%;
-	margin-right: 33%;
-	margin-left: 33%;
-	margin-top: 15%;
 }
 
-#maintext {
-	color: #303030;
+/*************
+NAVIGATION
+*************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
 }
 
-#socmedia {
-	font-size: 0.7em;
+nav ul {
+	list-style: none;
+	margin: 0 20px;
+	padding: 0;
 }
 
-ul, li {
+nav li {
 	display: inline-block;
-	list-style:none;
-	padding: 0px 10px;
 }
 
-li {
-	font-size: 2em;
+nav a {
+	padding: 15px 10px;
 }
 
+
+/*************
+SECTION
+*************/
+
+section {
+	background-color: ;
+	padding: 20px 10px 20px 10px;
+	margin: 15% 0 20% 0;
+}
+
+section img {
+	float: left;
+	display: inline;
+	max-width: 30%;
+	padding: 0 20px;
+}
+
+/*************
+FOOTER
+*************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #777;
+}
+
+footer img {
+	width: 30px;
+	height: 30px;
+	margin: 0 10px;
+}
