@@ -3,10 +3,11 @@ GENERAL
 *************/
 
 body {
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.25em;
-	line-height:1.5em;
-	color: #2e2e2e; 
+	line-height:1.75em;
+	color: #2e2e2e;
+	background-color: #ebebeb; 
 }
 
 a {
@@ -17,8 +18,8 @@ a {
 #wrapper {
 	max-width: 680px;
 	margin: 0 auto;
-	padding: 0 5%;
-	background-color: ;
+	padding: 0 0%;
+	background-color: #d4d4d4;
 }
 
 /*************
@@ -38,7 +39,7 @@ header {
 	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
-	background-color: #fff;
+	background-color: #d4d4d4;
 }
 
 header a {
@@ -53,6 +54,7 @@ nav {
 	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 0;
+	background-color: #d4d4d4;
 }
 
 nav ul {
@@ -87,6 +89,12 @@ section img {
 	padding: 0 20px;
 }
 
+.icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 0px;
+}
+
 /*************
 FOOTER
 *************/
@@ -97,10 +105,5 @@ footer {
 	clear: both;
 	padding-top: 50px;
 	color: #777;
-}
-
-footer img {
-	width: 30px;
-	height: 30px;
-	margin: 0 10px;
+	background-color: #ebebeb;
 }
