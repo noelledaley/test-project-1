@@ -78,20 +78,20 @@ SECTION
 
 section {
 	background-color: ;
-	padding: 20px 10px 20px 10px;
+	padding: 20px 7%;
 	margin: 15% 0 20% 0;
 }
 
 section img {
 	float: left;
-	display: inline;
+	display: inline-block;
 	max-width: 30%;
-	padding: 0 20px;
+	padding: 10px 20px;
 }
 
 .icon {
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	margin: 0 0px;
 	align: center;
 }
@@ -107,4 +107,10 @@ footer {
 	padding-top: 50px;
 	color: #777;
 	background-color: #ebebeb;
+}
+
+@media only screen and (min-width: 320px) {
+img {
+	float: none;
+}
 }
