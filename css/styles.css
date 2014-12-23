@@ -17,7 +17,7 @@ a {
 
 #wrapper {
 	max-width: 680px;
-	margin: 0 auto;
+	margin: 75px auto;
 	padding: 0 0%;
 	background-color: #d4d4d4;
 }
@@ -79,7 +79,6 @@ SECTION
 section {
 	background-color: ;
 	padding: 20px 7%;
-	display: block;
 	float: none;
 	clear: both;
 }
