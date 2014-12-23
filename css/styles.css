@@ -130,3 +130,14 @@ footer {
 	color: #777;
 	background-color: #ebebeb;
 }
+
+/*************
+Media Queries
+*************/
+
+@media screen and (max-width: 480px) {    
+    section .image {
+    float: none;
+    margin: auto;   
+  }
+}
