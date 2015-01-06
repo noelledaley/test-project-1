@@ -2,10 +2,6 @@
 GENERAL
 *************/
 
-#wrapper {
-    display: flex;
-}
-
 body {
     font-family: Helvetica;
     line-height: 1.5em;
@@ -40,8 +36,12 @@ nav a {
 CONTENT
 *************/
 
+#wrapper {
+    display: flex;
+}
+
 .main {
-    margin: auto;
+    margin: 50px auto;
     max-width: 750px;
 }
 
