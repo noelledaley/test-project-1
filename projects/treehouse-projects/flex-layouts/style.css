@@ -8,6 +8,11 @@ GENERAL
 
 body {
     font-family: Helvetica;
+    line-height: 1.5em;
+}
+
+h1 {
+    line-height: normal;
 }
 
 a {
@@ -50,6 +55,23 @@ CONTENT
     flex: 0 0 150px;
     /* tells element not to grow, third number is the size */
     margin-left: 50px;
+}
+
+#links ul {
+    list-style: none;
+}
+
+#links li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
 }
 
 #photos {
