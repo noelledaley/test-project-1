@@ -1,4 +1,5 @@
 var num = prompt('Please pick a number.');
-num = parseInt(num);
-num = Math.floor( Math.random() * num) + 1;
-document.write('<p> ' + num + '</p>');
+var topNum = parseInt(num);
+var randomNum = Math.floor( Math.random() * topNum) + 1;
+var message = ('<p> ' + randomNum + ' is a number between 1 and ' + topNum + '.</p>');
+document.write(message);
