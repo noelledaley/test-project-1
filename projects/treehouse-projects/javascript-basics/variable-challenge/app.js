@@ -1,30 +1,28 @@
 var questions = 5;
-var questionsLeft = '[' + questions + ' questions left]';
-var nounToChoose = prompt('Please choose a noun. ' + questionsLeft);
+var questionsLeft = ' [' + questions + ' questions left]';
+var noun = prompt('Please choose a noun. ' + questionsLeft);
 
 questions -= 1;
-questionsLeft = '[' + questions + ' questions left]';
-var noun = nounToChoose;
-var adjToChoose = prompt('Please choose an adjective. ' + questionsLeft);
+questionsLeft = ' [' + questions + ' questions left]';
+var adj = prompt('Please choose an adjective. ' + questionsLeft);
 
 questions -= 1;
-questionsLeft = '[' + questions + ' questions left]';
-var adjOne = adjToChoose;
-var adjToChooseTwo = prompt('Please choose a second adjective. ' + questionsLeft);
-var adTwo = adjToChooseTwo;
-var sentenceOne = ('The '+ adjOne + ' ' + noun + ' is ' + adTwo + '.');
+questionsLeft = ' [' + questions + ' questions left]';
+var adjTwo = prompt('Please choose a second adjective. ' + questionsLeft);
 
 questions -= 1;
-questionsLeft = '[' + questions + ' questions left]';
-var adjToChooseThree = prompt('Please choose a third adjective. ' + questionsLeft);
+questionsLeft = ' [' + questions + ' questions left]';
+var adjThree = prompt('Please choose a third adjective. ' + questionsLeft);
 
 questions -= 1;
-questionsLeft = '[' + questions + ' questions left]';
-var adjThree = adjToChooseThree;
-var nounToChooseTwo = prompt('Please choose a second noun.' + questionsLeft);
+questionsLeft = ' [' + questions + ' questions left]';
+var nounTwo = prompt('Please choose a second noun.' + questionsLeft);
+alert('All done. Ready?');
 
-questions -= 1;
-questionsLeft = '[' + questions + ' questions left]';
-var nounTwo = nounToChooseTwo;
-var sentenceTwo = ('In fact, the ' + noun + ' is also ' + adjThree + ' just like a ' + nounTwo + '.');
-document.write(sentenceOne + ' ' + sentenceTwo)
+var sentence = 'The ' + adj + ' ';
+sentence += noun + ' is ';
+sentence += adjTwo + '.';
+sentence += ' In fact, the ' + noun + ' is also ';
+sentence += adjThree + ' just like a ';
+sentence += nounTwo + '.';
+document.write(sentence);
