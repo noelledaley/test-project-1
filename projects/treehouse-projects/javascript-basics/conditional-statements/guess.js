@@ -23,6 +23,8 @@ if (parseInt(guess) === randomNumber) {
         correctGuess = true;
     }
 }
+
+// test if player is correct and output response
 if ( correctGuess ) {
     document.write('<p>You guessed the number!</p>');
 } else {
