@@ -9,4 +9,3 @@ var skipMultiples = function() {
 } 
 
 skipMultiples();
-
