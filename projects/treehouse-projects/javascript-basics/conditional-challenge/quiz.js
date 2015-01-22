@@ -25,3 +25,15 @@ var q5 = prompt('Where was I born?');
     if (q5.toUpperCase() == 'SAN FRANCISCO') {
         var correctGuess +=1;
     }
+
+//output results
+document.write('<p>You got ' + correctGuess + 'out of 5 questions correct!</p>');
+
+//output ranking
+if (correctGuess === 5) {
+    document.write('<p>You earned a gold crown!</p>');
+} else if (correctGuess >= 3) {
+    document.write('<p>You earned a silver crown!</p>');
+} else if (correct guess < 3) {
+    document.write('<p>You earned a bronze crown!</p>');
+}
