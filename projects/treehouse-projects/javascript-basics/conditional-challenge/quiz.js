@@ -1,7 +1,7 @@
 var correctGuess = 0;
 
 //ask questions
-var q1 = prompt('What is my favoriet color?');
+var q1 = prompt('What is my favorite color?');
     if (q1.toUpperCase()== 'GREEN') {
         var correctGuess +=1 ;
     }
@@ -34,6 +34,8 @@ if (correctGuess === 5) {
     document.write('<p>You earned a gold crown!</p>');
 } else if (correctGuess >= 3) {
     document.write('<p>You earned a silver crown!</p>');
-} else if (correct guess < 3) {
+} else if (correct guess >= 1) {
     document.write('<p>You earned a bronze crown!</p>');
+} else if (correctGuess === 0){
+    document.write('<p>No crown for you.</p>');
 }
