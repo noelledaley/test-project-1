@@ -1,28 +1,28 @@
 var correctGuess = 0;
 
 //ask questions
-var q1 = prompt('What is my favorite color?');
-    if ( q1.toUpperCase() == 'GREEN') {
+var answer1 = prompt('What is my favorite color?');
+    if ( answer1.toUpperCase() === 'GREEN') {
         var correctGuess +=1;
     }
 
-var q2 = prompt('What is my favorite food?');
-    if ( q2.toUpperCase() == 'BANANA') {
+var answer2 = prompt('What is my favorite food?');
+    if ( answer2.toUpperCase() === 'BANANA') {
         var correctGuess +=1;
     }
 
-var q3 = prompt('What is my favorite animal?');
-    if ( q3.toUpperCase() == 'WHALE') {
+var answer3 = prompt('What is my favorite animal?');
+    if ( answer3.toUpperCase() === 'WHALE') {
         var correctGuess +=1;
     }
 
-var q4 = prompt('What instrument do I play?');
-    if ( q4.toUpperCase() == 'GUITAR') {
+var answer4 = prompt('What instrument do I play?');
+    if ( answer4.toUpperCase() === 'GUITAR') {
         var correctGuess +=1;
     }
 
-var q5 = prompt('Where was I born?');
-    if ( q5.toUpperCase() == 'SAN FRANCISCO') {
+var answer5 = prompt('Where was I born?');
+    if ( answer5.toUpperCase() === 'SAN FRANCISCO') {
         var correctGuess +=1;
     }
 
