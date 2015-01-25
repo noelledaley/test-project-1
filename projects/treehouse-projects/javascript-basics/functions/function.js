@@ -3,10 +3,9 @@
     2.  Call the function several times by passing different values. */
 
 function getRandomNumber (lower, upper) {
-    var randomNumber = Math.floor( Math.random() * (upper - lower + 1)) + lower;
-    return randomNumber;
+    return randomNumber = Math.floor( Math.random() * (upper - lower + 1)) + lower;
 }
 
-getRandomNumber();
-getRandomNumber();
-getRandomNumber();
+console.log(getRandomNumber(1, 7));
+console.log(getRandomNumber(5, 100));
+console.log(getRandomNumber(50, 400));
