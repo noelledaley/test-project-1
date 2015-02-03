@@ -1,0 +1,39 @@
+/*************
+GENERAL
+*************/
+
+body {
+    color: #444;
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+/*************
+TOP
+*************/
+
+.banner {
+    margin: 0 auto;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 25px 0 50px;
+}
+
+.top-container {
+    width: 100%;
+    
+}
+
+/*************
+CONTENT
+*************/
