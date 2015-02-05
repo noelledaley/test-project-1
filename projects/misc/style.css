@@ -41,12 +41,27 @@ TOP
 
 .top-container {
     width: 100%;
-    
+    clear: both;
+    overflow: hidden;
 }
 
-.container h1 {
-    margin: 20px 0;
+.banner h1 {
+    margin: 30px 20px;
     text-align: center;
+}
+
+.button {
+    padding: 10px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: forestgreen;
+    display: block;
+    text-align: center;
+    width: 250px;
 }
 
 /*************
@@ -84,8 +99,14 @@ CONTENT
 .products li {
     display: block;
     float: left;
-    padding-right: 2.5%;
+    padding-right: 22px;
     width: 25%;
-    
-    
+}
+
+/*************
+FOOTER
+*************/
+
+footer p {
+    text-align: right;
 }
