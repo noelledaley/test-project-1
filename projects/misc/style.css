@@ -30,14 +30,22 @@ TOP
     margin: 0 auto;
     width: 100%;
     padding: 0 0 50px 0;
-    background-color: lightblue;
-    background-image: url()
+    background-image: -webkit-gradient(linear, top, rgba(255,255,255,.65), rgba(255,255,255,.68)), url("bg.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,.65), rgba(255,255,255,.68)), url("bg.jpg");
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.65), rgba(255,255,255,.68)), url("bg.jpg");
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.65), rgba(255,255,255,.68)), url("bg.jpg");
+    background-image: linear-gradient(top, rgba(255,255,255,.65), rgba(255,255,255,.68)), url("bg.jpg");
+    background-size: cover;
 }
 
 .top-container {
     width: 100%;
     clear: both;
     overflow: hidden;
+}
+
+.mission {
+    color: #;
 }
 
 .container {
