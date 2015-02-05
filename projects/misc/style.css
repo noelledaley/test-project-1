@@ -31,6 +31,7 @@ TOP
     width: 100%;
     padding: 0 0 50px 0;
     background-color: lightblue;
+    background-image: url()
 }
 
 .top-container {
@@ -46,7 +47,7 @@ TOP
 }
 
 .banner h1 {
-    margin: 100px 30px 50px 30px;
+    margin: 150px 30px 75px 30px;
     line-height: 1.3em;
     text-align: center;
 }
@@ -86,7 +87,7 @@ CONTENT
 *************/
 
 .products {
-    padding: 10px 0 0 0;
+    padding: 10px 0;
 }
 
 .products ul {
