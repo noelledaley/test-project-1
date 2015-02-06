@@ -1,6 +1,6 @@
-name = input("What's your name?")
+name = input("What's your name? ")
 
 if name == "Noelle":
-    print(name + " -- that's me!")
+    print("{} -- that's me!".format(name))
 else:
-    print(name + " is a nice name.")
+    print("{} is a nice name.".format(name))
