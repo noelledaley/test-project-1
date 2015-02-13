@@ -13,3 +13,6 @@ while (guess !== randomNumber) { //while computer's guess is not true
     guess = getRandomNumber(upper);
     attempts += 1;
 }
+
+console.log('The random number was: ' + randomNumber + '. ');
+console.log('It took ' + attempts + ' attempts to get it right.');
