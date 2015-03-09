@@ -12,6 +12,6 @@ do {
     guess = prompt('I am thinking of a number between 1 and 10. What is it?');
     guessCount +=1;
     if (parseInt(guess) === randomNumber) {
-    
+        correctGuess = true;
     }
-}
+} while ( ! correctGuess )
