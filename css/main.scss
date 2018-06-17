@@ -14,7 +14,7 @@ body {
   font-size: $base-font-size;
 }
 
-#wrapper {
+.wrapper {
   max-width: 800px;
   margin: $spacing-unit auto;
   padding: 0 0%;
@@ -32,9 +32,9 @@ a:hover {
   text-decoration: none;
 }
 
-#logo {
+.logo {
   font-family: $base-font-family;
-  font-weight: $bold-font-weight;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   a { color: $link-color; }
@@ -43,9 +43,8 @@ a:hover {
 .site-nav {
   text-align: center;
   font-family: $base-font-family;
-  font-weight: $bold-font-weight;
+  font-weight: bold;
   margin-bottom: 0.5em;
-  width: 100%;
   background-color: inherit;
   border: none;
 
@@ -62,7 +61,7 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  #logo {
+  .logo {
     margin-top: 80px;
   }
 
@@ -71,7 +70,7 @@ a:hover {
   }
 }
 
-img.me {
+.me {
   height: 150px;
   border-radius: 50%;
   margin: 0 auto 1em auto;
