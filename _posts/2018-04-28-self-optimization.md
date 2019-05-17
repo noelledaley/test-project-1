@@ -18,6 +18,6 @@ Here's a video of the talk. It looks into the ways that culture and politics inf
 ### Related links
 [You're Already Doing Just Fine - Slides](https://speakerdeck.com/noelledaley/youre-already-doing-just-fine-thoughts-on-self-optimization)
 
-[Not In Any Particular Order, and Not A Gospel But - Sara Hendren](http://sarahendren.com/2018/03/06/not-in-any-particular-order-and-not-a-gospel-but/)
+[Not In Any Particular Order, and Not A Gospel But](http://sarahendren.com/2018/03/06/not-in-any-particular-order-and-not-a-gospel-but/)  - Sara Hendren
 
-[Improving Ourselves to Death - Alexandra Schwartz](https://www.newyorker.com/magazine/2018/01/15/improving-ourselves-to-death)
+[Improving Ourselves to Death](https://www.newyorker.com/magazine/2018/01/15/improving-ourselves-to-death)  - Alexandra Schwartz
