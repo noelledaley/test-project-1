@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sustainable Career Development: Advancing While Still Having Free Time"
+title:  "Talk: Sustainable Career Development: Advancing While Still Having Free Time"
 date:   2016-06-22 17:28:11 -0700
 categories: talks
 ---

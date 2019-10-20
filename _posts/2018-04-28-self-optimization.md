@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "You're Already Doing Just Fine: Thoughts on Trying to Track, Do, and Be All the Things"
+title:  "Talk: You're Already Doing Just Fine: Thoughts on Trying to Track, Do, and Be All the Things"
 date:   2018-04-28 07:28:11 -0700
 categories: talks
 ---
