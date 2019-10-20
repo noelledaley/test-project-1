@@ -5,8 +5,8 @@ date:   2019-05-15 10:00:00 -0700
 categories: talks
 ---
 
+
 <iframe src="https://player.vimeo.com/video/344515972" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-[What Colocated Teams Can Learn From Remote Teams by Noelle Daley](https://vimeo.com/344515972) from [DevOpsDays Zurich](https://vimeo.com/devopsdayszh)
 
 This was a talk based on my [earlier research](https://medium.com/@elnoelle/what-colocated-teams-can-learn-from-remote-teams-f48bb4a708d1) on what makes remote work _work_. 
 
@@ -15,6 +15,7 @@ In today’s distributed world it is increasingly important to embrace some form
 ## Slides
 
 <script async class="speakerdeck-embed" data-id="2c3d32afc2aa405d87cc1550e9d62b77" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 
 ### Related Links
 [Atlassian DACI Playbook](https://www.atlassian.com/team-playbook/plays/daci)
