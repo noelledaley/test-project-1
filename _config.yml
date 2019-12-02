@@ -7,7 +7,7 @@ title: Noelle Daley
 email: me@noelledaley.com
 description: Noelle Daley, Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://noelledaley.github.io" # the base hostname & protocol for your site
+url: "https://noelledaley.github.io" # the base hostname & protocol for your site
 twitter_username: elnoelle
 github_username:  noelledaley
 
