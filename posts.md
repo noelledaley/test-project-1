@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-I spend a lot of time thinking about tech industry culture, empathy, design, and career development. Occasionally I write and speak about these topics. You can can check out my thoughts below.
+I spend a lot of time thinking about tech industry culture, empathy, design, and career development. Occasionally I write and speak about these topics. You can can check out my thoughts and view samples of my work below.
 
 <ul>
   {% for post in site.posts %}
