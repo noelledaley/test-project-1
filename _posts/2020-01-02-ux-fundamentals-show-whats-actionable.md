@@ -21,7 +21,10 @@ To implement this design principle my task this week was to redesign a mobile we
 My first pass:
 <img src="../../../../img/gym-sign-up-first-pass.png" alt="gym sign up form first pass">
 
-And my second pass at a solution:
+My second pass:
 <img src="../../../../img/gym-sign-up-second-pass.png" alt="gym sign up form second pass">
 
-My goal here was to make the schedule as skimmable as possible, as users would be glancing at this page from their phone. My first ideas explored various groupings and hierarchies while I tried to maintain the information and functionality I thought would be most crucial to users. However after sharing these designs with 3 potential users, I learned that they didn't actually care about class descriptions or class category, for instance. My second design took this into account, getting rid of excess borders, text, and improving the page hierarchy by adding consistent spacing and typography. I'm still curious as to whether the course descriptions could be included somehow, perhaps with an expandable toggle, but that'd be something to explore in a future iteration.
+And my third pass at a solution:
+<img src="../../../../img/gym-sign-up-third-pass.png" alt="gym sign up form third pass">
+
+My goal here was to make the schedule as skimmable as possible, as users would be glancing at this page from their phone. My first ideas explored various groupings and hierarchies while I tried to maintain the information and functionality I thought would be most crucial to users. However after sharing these designs with 3 potential users, I learned that they didn't actually care about class descriptions or class category, for instance. My second and third designs took this into account, getting rid of excess borders, text, and improving the page hierarchy by adding consistent spacing and typography. I'm still curious as to whether the course descriptions could be included somehow, perhaps with an expandable toggle, but that'd be something to explore in a future iteration.
