@@ -5,7 +5,7 @@ date:   2018-04-28 07:28:11 -0700
 categories: talks
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Eg8-tf7VFuQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1I1Mj8OrJkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I recently had the pleasure of speaking at [DonutJS](http://donutjs.club/) about my thoughts on self-optimization, self-improvement, and the tools and technology we use to measure our bodies and activities. This is a topic that has been heavy on my mind for the last few months as I've talked with others, struggled with my own health, and spent countless hours feeling confused and inadequate for being unable to use these tools to solve my problems.
 
